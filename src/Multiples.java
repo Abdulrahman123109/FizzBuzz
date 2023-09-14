@@ -13,3 +13,4 @@ public class Multiples {
         System.out.println(counter);
     }
 }
+

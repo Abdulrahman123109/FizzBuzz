@@ -6,6 +6,7 @@ public class Reduce {
 
     }
 
+
     private static int getDd(int n) {
         int dd =0;
         while(n != 0){
