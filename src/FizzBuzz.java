@@ -4,8 +4,12 @@
 class FizzBuzz {
 
     public static void main(String[] args) {
+        doFizzBuss();
+    }
 
-        for (int i = 1; i < 100; i++) {
+    public static void doFizzBuss() {
+        int i = 1;
+        while ( i < 100) {
 
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
@@ -29,6 +33,8 @@ class FizzBuzz {
                 System.out.println(i);
 
             }
+            i++;
+
         }
     }
 }
